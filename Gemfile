@@ -14,10 +14,14 @@ gem "jekyll-theme-clean-blog"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 227", group: :jekyll_plugins
 # If you have any plugins, put them here!
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-timeago', '~> 0.13.1'
+  gem 'jekyll-compose'
+  gem 'webrick', '~> 1.7'
 end
-gem "webrick"
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do

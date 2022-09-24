@@ -3,6 +3,7 @@ layout: post
 title:  "Overview of Fetal Alcohol Spectrum Disorder (FASD)"
 date:   2022-09-21 21:42:10 -0400
 categories: posts
+background: '/PATH_TO_IMAGE'
 ---
 # Overview of Fetal Alcohol Spectrum Disorder (FASD)
 
